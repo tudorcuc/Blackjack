@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Blackjack
+
+[Library]
+Blackjack=.\Blackjack.lib
+
+[$LibMap$]
+Blackjack=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=blackjack|bjack|0  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Comparator.vhd=-1
+/uc.vhd=-1
+/ue.vhd=-1
+/Blackjack.vhd=-1
+/Waveform Editor 3.awf=-1
+
+[Files.Data]
+.\src\Comparator.vhd=VHDL Source Code
+.\src\uc.vhd=VHDL Source Code
+.\src\ue.vhd=VHDL Source Code
+.\src\Blackjack.vhd=VHDL Source Code
+.\src\Waveform Editor 3.awf=Waveform File
+
